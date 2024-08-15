@@ -1,0 +1,30 @@
+{
+  "name": "highcharts-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-all": "cypress run",
+    "test-00": "cypress run --spec tests/specs/h00.test.cy.js",
+    "test-01": "cypress run --spec tests/specs/h01.test.cy.js",
+    "test-03": "cypress run --spec tests/specs/h03.test.cy.js",
+    "test-05": "cypress run --spec tests/specs/h05.test.cy.js",
+    "test-07": "cypress run --spec tests/specs/h07.test.cy.js",
+    "test-08": "cypress run --spec tests/specs/h08.test.cy.js",
+    "test-09": "cypress run --spec tests/specs/h09.test.cy.js",
+    "test-12": "cypress run --spec tests/specs/h12.test.cy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highcharts-academy/repository.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/highcharts-academy/repository/issues"
+  },
+  "homepage": "https://github.com/highcharts-academy/repository#readme",
+  "devDependencies": {
+    "cypress": "^13.13.1"
+  }
+}
